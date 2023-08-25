@@ -1,0 +1,55 @@
+@media screen and (min-width:551px ){
+    #nav-burger-btn, .nav-burger-close-btn{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px){
+    .first-section{
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .first-section--tittle-and-a{
+        width: 700px;
+    }
+
+    .nav-container{
+        gap: 30px;
+    }
+
+    .four-section{
+        flex-direction: row;
+    }
+
+    footer{
+        padding: 50px;
+    }
+
+    .six-section{
+        flex-direction: row;
+    }
+
+    .container-yellow{
+        width: 100%;
+        
+    }
+    
+    .container-orange{
+        width: 60%;
+        padding-left:60px ;
+        clip-path: polygon(16% 0, 100% 0%, 100% 100%, 0 100%);
+    }
+
+    
+    
+}
+
+@media screen and (min-width:900px){
+    .container-cards{
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+

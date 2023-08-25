@@ -3,42 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petland</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/tablet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://png.pngtree.com/png-clipart/20221227/ourmid/pngtree-creative-vector-hand-drawn-illustration-of-cute-dog-eating-bone-png-image_6499855.png">
+    <title>Pet-First</title>
 </head>
-    <div class="wrapper">
-        <header>
-            <nav class="navbar">
-                <div class="brand">
-                    <h2>P<span>L</span>D</h2>
-                </div>
-                <ul class="menu">
-                    <li><a href="#" class="active">Inicio</a></li>
-                    <li><a href="#">Caracteristicas</a></li>
-                    <li><a href="#">Cuenta</a></li>
-                    <li><a href="#">Preguntas Frecuentes</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="main">
-            <div class="info-content">
-                <h1>Introduccing <span>Petland</span>!</h1>
-                <p>A social network for pet owners who like share pet's life and advises</p>
-                <button type="submit"><i class="fas fa-user-plus"></i>&nbsp;Registrate ahora</button>
-            </div>
-        </main>
+<body>
+    <div class="wave" style="height: 400px; overflow: hidden;" >
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100vw;">
+        <path d="M-85.50,147.55 C264.95,163.33 251.97,-40.94 597.35,216.63 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill:  #ebe3cc;"></path></svg>
     </div>
-        <div class="about">
-            <div class="about-info">
-                <h2>About the dev</h2>
-                <div class="divider"></div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex dolorem quia sapiente, quidem reiciendis animi placeat laudantium tempora quo a nemo, possimus culpa consectetur voluptatibus modi omnis recusandae vitae obcaecati.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia atque iusto cum temporibus placeat aperiam, harum explicabo, saepe deleniti, accusamus illo? Beatae autem dolore necessitatibus itaque vel quaerat exercitationem labore.</p>
-                <button type="submit"><i class="fa-github-square">&nbsp;Mi portafolio</i></button>
+    <header>
+        <img src="assets/Pet-First.png" alt="">
+        <button id="nav-burger-btn"><i class="bi bi-list"></i></button>
+        <button class="nav-burger-close-btn"><i class="bi bi-x-circle-fill"></i></button>
+        <ul class="nav-container">
+                <li><a href="#second-section">Pets</a></li>
+                <li><a href="#third-section">Service</a></li>
+                <li><a href="#phamarcy">Medi-care</a></li>
+                <li><a href="#six-section">Subscribe</a></li>
+            </ul>
+        
+        <button  id="sign-up-btn">
+            Sign up
+        </button>
+    </header>
+
+    <main>
+        
+        <section id="first-section" class="first-section">
+            <div class="first-section--tittle-and-a">
+                <h1>A PET-FIRST <span>APPROACH TO</span> WELLNESS</h1>
+                <a href="#four-section">Learn More</a>
             </div>
-        </div>
+            
+            <div class="first-section--img">
+                <img src="assets/dog-cut.png" alt="">
+            </div>
+
+            <img class="hilo-amarillo" src="assets/Group.png" alt="">
+
+        </section>
+
+        <section id="second-section" class="second-section">
+
+
+            <div class="category-sticker-img">
+                <img src="assets/category-sticker.png" alt="">
+            </div>
+
+            <div class="slider-container">
+
+                <div class="animals-imgs-container">
+                    <div class="card">
+                        <div class="animal-img">
+                            <img src="https://petsbioforestal.es/wp-content/uploads/2020/02/cuanto-vive-conejo.jpg" alt="">
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="animal-img">
+                            <img src="https://humanidades.com/wp-content/uploads/2017/02/perro-1-e1561678907722.jpg" alt="">
+                            
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="animal-img">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-529009289-648b004c96523.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*" alt="">
+        
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="animal-img">
+                            <img src="https://www.petdarling.com/wp-content/uploads/2014/09/cachorro-bull-terrier-miniatura.jpg" alt="">
+        
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="animal-img">
+                            <img src="https://www.elespectador.com/resizer/lZcP_cqKxjBwScJGInZnNF6Oghc=/arc-anglerfish-arc2-prod-elespectador/public/SQT6VSTKY5ALBBK4QFI22JCWNY.jpg" alt="">
+        
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="animal-img">
+                            <img src="https://www.conmishijos.com/assets/posts/8000/8546-mascotas-agaporni-el-lorito-del-amor.jpg" alt="">
+        
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="animal-img">
+                            <img src="https://www.zooplus.es/magazine/wp-content/uploads/2019/04/hamster-rasseportrait-768x512.jpg" alt="">
+        
+                        </div>
+                    </div>
+                   
+                </div>
+                
+            </div>
+            
+        </section>
+
+        <section id="third-section" class="third-section">
+            <h2>Our Service</h2>
+            <div class="container-cards">
+                <div id="phamarcy" class="card-rectagular-yellow">
+                    <img class="card-img" src="assets/phamarcy.png" alt="">
+                    <h3>Phamarcy</h3>
+                    <p>Apoquel is an oral tablet 
+                        that works differently than
+                        other allergy medications. 
+                        It goes straight to the source 
+                        to help relieve itch and inflammation at its
+                        core—addressing the underlying cause of irritation
+                    </p>
+                    <a class="explore-card-yellow" href="#">Explore</a>
+                </div>
+
+                <div class="card-rectagular">
+                    <img class="card-img" src="assets/cuts.png" alt="">
+                    <h3>Breed-specific Haircuts</h3>
+                    <p>Regular grooming is essential to your pet's health as it helps prevent skin issues such as matting.</p>
+                    <a class="explore-card" href="#">Explore</a>
+                </div>
+
+                <div class="card-rectagular-yellow">
+                    <img class="card-img-cloths" src="assets/cloths.png" alt="">
+                    <h3>Cloths</h3>
+                    <p>Is your dog at the top of his/her fashion game? Don't forget a dog bikini or swim trunks for your pet's next vacation! Whether poolside, at the beach, or on the yacht, your pooch will look summer-ready</p>
+                    <a class="explore-card-yellow" href="#">Explore</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="four-section" class="four-section">
+            <div class="parenting-img">
+                    <img src="assets/Union.png" alt="">
+            </div>
+
+            <div class="making-parenting-texts">
+                <h2>Making pet parenting easy for everyone</h2>
+                <p>Could this be the dog with the longest tail? The Rampur Greyhound - shy, sensitive, alert, and faithful. This is a breed that has climbed its way to being top dog because of its intelligence</p>
+                <ul>
+                    <li>Adoption</li>
+                    <li>Frozen Raw</li>
+                    <li>Next Day Delivery</li>
+                </ul>
+
+                <a class="explore-card-yellow" href="#subscribe">Explore</a>
+            </div>
+        </section>
+
+        <section id="six-section" class="six-section">
+            <div class="container-yellow">
+                <div class="brow-dog-img">
+                    <img src="assets/brown-dog.png" alt="">
+
+                </div>
+            </div>
+
+            <div id="subscribe" class="container-orange">
+                
+                <p>Subscribe & Get Pet Updatenews</p>
+                <input type="email" placeholder="Email">
+                <!-- <img class="arrow" src="assets/Arrow.png" alt=""> -->
+                
+            </div>
+            
+        </section>
+            
+    </main>
+    <footer>
+        <img src="assets/pet-first-orange.png" alt="">
+        
+        <ul>
+            <li> <a href="#first-section">Home</a></li>
+            <li> <a href="#">Project</a></li>
+            <li> <a href="#third-section">Service</a></li>
+            <li> <a href="#">Client</a></li>
+            <li> <a href="#">Team</a></li>
+            <li> <a href="#">Blog</a></li>
+            <li> <a href="#">Contact</a></li>
+        </ul>
+        
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
